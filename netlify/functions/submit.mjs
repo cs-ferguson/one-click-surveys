@@ -1,5 +1,6 @@
 export default async (req, context) => {
-    const { city, country } = context.params;
+    const { country } = context.params;
+    
   
-    return new Response(`You're visiting ${city} in ${country}!`);
+    return new Response(`You're visiting City in ${country}!`);
   };

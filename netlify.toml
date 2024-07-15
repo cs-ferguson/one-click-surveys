@@ -6,3 +6,8 @@
 [dev]
     publish = "public"
     node_bundler = "esbuild"
+    functions = "netlify/functions/"
+
+[functions]
+    node_bundler = "esbuild"
+    directory = "netlify/functions/"
