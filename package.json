@@ -1,0 +1,7 @@
+{
+    "name": "one-click-surveys",
+    "version": "1.0.0",
+    "description": "One click survey host using Supabase and serverless functions",
+    "author": "Chris Ferguson",
+    "license": "ISC"
+}
