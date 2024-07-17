@@ -9,7 +9,7 @@ async function insertCesSubmission(params) {
     let { data: ces_submissions, error } = await supabase
       .from('ces_submissions')
       .insert([
-        { score: params.score, submitter: params.submitter, survey_type: params.survey_type, source: 'test' },
+        { score: params.score, submitter: params.submitter, survey_type: params.survey_type, source: params.source },
       ])
       .select()
 
