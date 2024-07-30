@@ -4,10 +4,20 @@
     "description": "One click survey host using Supabase and serverless functions",
     "author": "Chris Ferguson",
     "license": "ISC",
+    "scripts": {
+        "build": "webpack",
+        "dev": "webpack --config webpack.dev.config.js"
+    },
     "dependencies": {
+        "@lottiefiles/dotlottie-web": "^0.29.2",
         "@supabase/supabase-js": "^2.44.4"
     },
     "devDependencies": {
-        "dotenv": "^16.4.5"
+        "css-loader": "^7.1.2",
+        "dotenv": "^16.4.5",
+        "html-webpack-plugin": "^5.6.0",
+        "mini-css-extract-plugin": "^2.9.0",
+        "webpack": "^5.93.0",
+        "webpack-cli": "^5.1.4"
     }
 }
