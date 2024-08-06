@@ -89,6 +89,8 @@ export default async function submitMyForm() {
             throw new Error(errorBody.error);
         }
 
+        console.log(response);
+
         console.log('Form submitted');
         showSuccess(displayElements); 
 

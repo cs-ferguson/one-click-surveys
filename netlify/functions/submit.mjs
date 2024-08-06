@@ -22,6 +22,7 @@ async function insertSurveySubmission(params) {
   } catch (error) {
     return { error: error.message }; // Return an error message
   }
+  
 }
 
 async function checkCampaign ( campaignId ) {
